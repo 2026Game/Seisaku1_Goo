@@ -119,6 +119,120 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &100222523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.925472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8889976
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_Name
+      value: PF Props - Stone 06 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+--- !u!1001 &357329938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.0679855
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6188185
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750448, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
+      propertyPath: m_Name
+      value: PF Props - Stone 06 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5762f992ea3bd544bb8287f66e8f844, type: 3}
 --- !u!1 &431176529
 GameObject:
   m_ObjectHideFlags: 0
