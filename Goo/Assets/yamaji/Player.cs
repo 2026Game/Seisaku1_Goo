@@ -2,27 +2,19 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   
+    // プレイヤーの移動速度
+    public float speed = 5.0f;
+
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(Vector3.up * 5.0f * Time.deltaTime);
-        }
+        // WASDキーの入力を取得
+        float x = Input.GetAxisRaw("Horizontal");
+        float z = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector3.right * 5.0f * Time.deltaTime);
-        }
+        // 移動する方向を作る
+        Vector3 direction = new Vector3(x, 0, z).normalized;
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector3.down * 5.0f * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.left * 5.0f * Time.deltaTime);
-        }
+        // プレイヤーを移動させる
+        transform.position += direction * speed * Time.deltaTime;
     }
 }
