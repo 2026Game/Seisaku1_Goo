@@ -1892,15 +1892,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 298464719}
     m_Modifications:
     - target: {fileID: 3679833107318686742, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8144181
+      value: 6.681817
       objectReference: {fileID: 0}
     - target: {fileID: 3679833107318686742, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.37844
+      value: -5.0848207
       objectReference: {fileID: 0}
     - target: {fileID: 3679833107318686742, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1943,6 +1943,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
+--- !u!4 &242944191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3679833107318686742, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
+  m_PrefabInstance: {fileID: 242944190}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &275441168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2054,9 +2059,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7509736641193634087, guid: a0a66c9b152e801409fc26c4ca493d18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 242944191}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0a66c9b152e801409fc26c4ca493d18, type: 3}
+--- !u!4 &298464719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7509736641193634087, guid: a0a66c9b152e801409fc26c4ca493d18, type: 3}
+  m_PrefabInstance: {fileID: 298464718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &316296252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2781,18 +2794,47 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 431176532}
-  - {fileID: 1188658610}
-  - {fileID: 772846579}
-  - {fileID: 1042867988}
-  - {fileID: 837566064}
-  - {fileID: 1108995220}
-  - {fileID: 1239676887}
-  - {fileID: 1556283935}
   - {fileID: 357329938}
   - {fileID: 100222523}
-  - {fileID: 1668724665}
   - {fileID: 6513840}
   - {fileID: 30475726}
   - {fileID: 202737447}
-  - {fileID: 889982558}
   - {fileID: 143490510}
+  - {fileID: 145662426}
+  - {fileID: 275441168}
+  - {fileID: 40688916}
+  - {fileID: 91428990}
+  - {fileID: 236580250}
+  - {fileID: 48068965}
+  - {fileID: 316296252}
+  - {fileID: 124612615}
+  - {fileID: 186230592}
+  - {fileID: 72999086}
+  - {fileID: 112587794}
+  - {fileID: 418053234}
+  - {fileID: 122890037}
+  - {fileID: 385972151}
+  - {fileID: 421125312}
+  - {fileID: 161873511}
+  - {fileID: 347271786}
+  - {fileID: 94396877}
+  - {fileID: 385263159}
+  - {fileID: 25404856}
+  - {fileID: 354350314}
+  - {fileID: 195786050}
+  - {fileID: 210886721}
+  - {fileID: 148772766}
+  - {fileID: 46785034}
+  - {fileID: 298464718}
+  - {fileID: 81295824}
+  - {fileID: 52368662}
+  - {fileID: 88549811}
+  - {fileID: 335352233}
+  - {fileID: 384817602}
+  - {fileID: 39864517}
+  - {fileID: 175125484}
+  - {fileID: 87551211}
+  - {fileID: 89936182}
+  - {fileID: 24875230}
+  - {fileID: 26626749}
+  - {fileID: 423133559}
