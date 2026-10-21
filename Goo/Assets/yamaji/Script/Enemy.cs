@@ -25,6 +25,9 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (GameManager.EnemiesPaused)
+        return;
+
         if (player == null || rb == null)
             return;
 

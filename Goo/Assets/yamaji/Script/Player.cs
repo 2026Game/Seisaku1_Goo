@@ -5,9 +5,7 @@ public class Player : MonoBehaviour
     public float moveSpeed = 10.0f;
 
     private Rigidbody2D rb;
-
-    // 捕まったかどうか
-    private bool isCaught = false;
+    private bool movementLocked = false;
 
     void Awake()
     {
@@ -16,11 +14,9 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        // 捕まったら移動しない
-        if (isCaught || rb == null)
+        if (movementLocked || rb == null)
             return;
 
-        // WASD / 矢印キーの入力を取得
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
@@ -34,25 +30,22 @@ public class Player : MonoBehaviour
         rb.MovePosition(nextPosition);
     }
 
-    // 鬼に捕まったときに呼び出す
-    public void Caught()
+    public void SetMovementLocked(bool locked)
     {
-        if (isCaught)
-            return;
+        movementLocked = locked;
 
-        isCaught = true;
-
-        Debug.Log("捕まった！");
+        // 捕まったときに物理的な勢いで動かないようにする
+        if (rb != null)
+            rb.linearVelocity = Vector2.zero;
     }
 
-    // 鬼と接触したか確認
-    void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        // 相手が鬼だったら
-        if (other.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("鬼に捕まった！");
+            if (GameManager.Instance != null)
+                GameManager.Instance.CapturePlayer();
         }
     }
+    
 }
-
