@@ -56052,7 +56052,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 69149adb01ec23645ab2600c9f40435f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73526,7 +73526,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 2367cb1fa5ebd9d4d9082b473634a906, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 11400000, guid: 6af3ae26591b05548b82024e5520c670, type: 2}
+    m_Data: {fileID: 11400000, guid: cada6c7ebbaa8984fbe46d7dbacadfe4, type: 2}
   - serializedVersion: 2
     m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 70b8e49e6af191c4c987c778977a5dba, type: 2}
@@ -73620,7 +73620,7 @@ Tilemap:
     m_Data: {fileID: 21300042, guid: 1c9ed9d1200c29d4cbfd2071028c1cd5, type: 3}
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 21300060, guid: 1c9ed9d1200c29d4cbfd2071028c1cd5, type: 3}
+    m_Data: {fileID: 21300000, guid: 252c69ee9deb7164c8f329dac167c7a1, type: 3}
   - serializedVersion: 2
     m_RefCount: 2
     m_Data: {fileID: 21300062, guid: 1c9ed9d1200c29d4cbfd2071028c1cd5, type: 3}
@@ -81035,6 +81035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750450, guid: 713b33322b495794e92184973ece3034, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f93a47d09f50eb24a981b45ef21c65d5, type: 2}
     - target: {fileID: 7947911505737750455, guid: 713b33322b495794e92184973ece3034, type: 3}
       propertyPath: m_Name
       value: PF Props - Stone 02 (3)
