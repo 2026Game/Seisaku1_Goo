@@ -52,7 +52,7 @@ public class GameDirector : MonoBehaviour
 
     public void CatchPlayer()
     {
-        this.onistop.GetComponent<Oni>().OniStop();
+        this.onistop.GetComponent<OniController>().OniStop();
         Damage++;
         Debug.Log(Damage + "ディレクタ");
         if (Damage >= 3)
