@@ -12,7 +12,7 @@ public class GameDirector : MonoBehaviour
     GameObject TimerUI;
     GameObject onistop;
 
-    float Timer = 10;
+    float Timer = 100;
     int Damage = 0;
     bool Over;
 
@@ -87,7 +87,7 @@ public class GameDirector : MonoBehaviour
 
         if (Over == true)
         {
-            Timer = 0;
+            
             OverUI.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Return))
             {
