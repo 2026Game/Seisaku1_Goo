@@ -1,6 +1,8 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameDirector : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class GameDirector : MonoBehaviour
     GameObject TimerUI;
     GameObject OniUI;
     GameObject onistop;
+    public Button ReStart;
+    public Button Title;
 
     float Timer = 100;
     int OniCount = 1;
@@ -56,6 +60,17 @@ public class GameDirector : MonoBehaviour
         this.TimerUI = GameObject.Find("Timer");
         this.OniUI = GameObject.Find("OniCount");
         GameOver = 0;
+        ReStart.onClick.AddListener(ReStartGame);
+        Title.onClick.AddListener(TitleBack);
+    }
+
+    void ReStartGame()
+    {
+        SceneManager.LoadScene("Wada Scene");
+    }
+    void TitleBack()
+    {
+
     }
 
     public void CatchPlayer()
