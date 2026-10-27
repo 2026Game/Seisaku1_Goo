@@ -5,6 +5,8 @@ public class OniSpawner : MonoBehaviour
     public GameObject enemyPrefab;
 
 
+    GameObject OniCount;
+
 
     public float spawnInterval = 0.0f;
 
@@ -21,6 +23,10 @@ public class OniSpawner : MonoBehaviour
     public int MaxEnemy = 3;
     private int EnemyCount = 0;
 
+    private void Start()
+    {
+        this.OniCount = GameObject.Find("GameDirector");
+    }
 
     void Update()
     {
@@ -35,18 +41,20 @@ public class OniSpawner : MonoBehaviour
             timer = 0.0f;
 
 
-
             SpawnEnemy();
 
 
             EnemyCount++;
+
+
+            this.OniCount.GetComponent<GameDirector>().OniPlus();
         }
     }
 
 
     void SpawnEnemy()
     {
-
+        
         if (enemyPrefab == null)
             return;
 

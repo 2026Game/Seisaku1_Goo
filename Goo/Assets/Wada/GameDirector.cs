@@ -10,9 +10,11 @@ public class GameDirector : MonoBehaviour
     public GameObject HPUI2;
     public GameObject HPUI3;
     GameObject TimerUI;
+    GameObject OniUI;
     GameObject onistop;
 
     float Timer = 100;
+    int OniCount = 1;
     int Damage = 0;
     bool Over;
 
@@ -37,6 +39,11 @@ public class GameDirector : MonoBehaviour
         HPUI3.SetActive(!HPUI3.activeSelf);
     }
 
+    public void OniPlus()
+    {
+        OniCount++;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,6 +54,7 @@ public class GameDirector : MonoBehaviour
         HPUI3.SetActive(true);
         Over = false;
         this.TimerUI = GameObject.Find("Timer");
+        this.OniUI = GameObject.Find("OniCount");
         GameOver = 0;
     }
 
@@ -65,6 +73,7 @@ public class GameDirector : MonoBehaviour
     void Update()
     {
         this.TimerUI.GetComponent<TextMeshProUGUI>().text = this.Timer.ToString("F1");
+        this.OniUI.GetComponent<TextMeshProUGUI>().text = this.OniCount.ToString("F0");
         if (Timer <= 0)
         {
             Over = true;
