@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0993344158c4c48bc8c702d2c4a7db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
-  player: {fileID: 0}
+  player: {fileID: 966463354}
   smoothSpeed: 5
 --- !u!81 &862339659
 AudioListener:
