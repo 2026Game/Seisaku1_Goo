@@ -66,7 +66,7 @@ public class GameDirector : MonoBehaviour
 
     void ReStartGame()
     {
-        SceneManager.LoadScene("Wada Scene");
+        SceneManager.LoadScene("GameScene1");
     }
     void TitleBack()
     {
