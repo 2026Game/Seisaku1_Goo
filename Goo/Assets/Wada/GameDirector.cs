@@ -70,7 +70,7 @@ public class GameDirector : MonoBehaviour
     }
     void TitleBack()
     {
-
+        SceneManager.LoadScene("Title");
     }
 
     public void CatchPlayer()
