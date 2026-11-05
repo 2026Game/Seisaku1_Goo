@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 43ed8d785fdadc14dba8610a2c6ca385
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4014865879059906292
+    second: ClearEffectpng_0
+  - first:
+      213: -5808222418664555613
+    second: ClearEffectpng_1
+  - first:
+      213: 6639064596567830737
+    second: ClearEffectpng_2
+  - first:
+      213: 6423497937739020398
+    second: ClearEffectpng_3
+  - first:
+      213: -1500589336868626459
+    second: ClearEffectpng_4
+  - first:
+      213: -7824062193936314196
+    second: ClearEffectpng_5
+  - first:
+      213: -792749401800338546
+    second: ClearEffectpng_6
+  - first:
+      213: 146664082142994279
+    second: ClearEffectpng_7
+  - first:
+      213: 4263122173994452457
+    second: ClearEffectpng_8
+  - first:
+      213: 5900251306859823749
+    second: ClearEffectpng_9
+  - first:
+      213: -6540533934162038545
+    second: ClearEffectpng_10
+  - first:
+      213: 8294099205795786995
+    second: ClearEffectpng_11
+  - first:
+      213: -1313002809306599614
+    second: ClearEffectpng_12
+  - first:
+      213: -5809421023776156371
+    second: ClearEffectpng_13
+  - first:
+      213: 3586267940499220419
+    second: ClearEffectpng_14
+  - first:
+      213: -2602792659266262692
+    second: ClearEffectpng_15
+  - first:
+      213: -8935866392401991436
+    second: ClearEffectpng_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ClearEffectpng_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 466
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feb33ece3ba7b730800000000000000
+      internalID: 4014865879059906292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 510
+        width: 93
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abf907cb7c056fa0800000000000000
+      internalID: -5808222418664555613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_2
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 510
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d03c474312b22c50800000000000000
+      internalID: 6639064596567830737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_3
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 476
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68736a5759d42950800000000000000
+      internalID: 6423497937739020398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_4
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 449
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efd436d2f5dc2be0800000000000000
+      internalID: -1500589336868626459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_5
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 450
+        width: 86
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0dcd563e85b6390800000000000000
+      internalID: -7824062193936314196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_6
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 490
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8399c58e969ff4f0800000000000000
+      internalID: -792749401800338546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 484
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f1175a43e090200800000000000000
+      internalID: 146664082142994279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_8
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 461
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5c70fb707a92b30800000000000000
+      internalID: 4263122173994452457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 15
+        width: 1506
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5820aee7d47e1e150800000000000000
+      internalID: 5900251306859823749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 438
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe032e44a0b5b35a0800000000000000
+      internalID: -6540533934162038545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_11
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 381
+        width: 83
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0be4d984f8a1370800000000000000
+      internalID: 8294099205795786995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_12
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 392
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fa03ac6e647cde0800000000000000
+      internalID: -1313002809306599614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_13
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 140
+        width: 508
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25d227cb5ac06fa0800000000000000
+      internalID: -5809421023776156371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_14
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 408
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7e3d6e0bbf4c130800000000000000
+      internalID: 3586267940499220419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_15
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 136
+        width: 100
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59a078ddd501ebd0800000000000000
+      internalID: -2602792659266262692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClearEffectpng_16
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 80
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f827804cdc6df380800000000000000
+      internalID: -8935866392401991436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ClearEffectpng_0: 4014865879059906292
+      ClearEffectpng_1: -5808222418664555613
+      ClearEffectpng_10: -6540533934162038545
+      ClearEffectpng_11: 8294099205795786995
+      ClearEffectpng_12: -1313002809306599614
+      ClearEffectpng_13: -5809421023776156371
+      ClearEffectpng_14: 3586267940499220419
+      ClearEffectpng_15: -2602792659266262692
+      ClearEffectpng_16: -8935866392401991436
+      ClearEffectpng_2: 6639064596567830737
+      ClearEffectpng_3: 6423497937739020398
+      ClearEffectpng_4: -1500589336868626459
+      ClearEffectpng_5: -7824062193936314196
+      ClearEffectpng_6: -792749401800338546
+      ClearEffectpng_7: 146664082142994279
+      ClearEffectpng_8: 4263122173994452457
+      ClearEffectpng_9: 5900251306859823749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

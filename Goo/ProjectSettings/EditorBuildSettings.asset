@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Wada/GameScene1.unity
     guid: 632bc8bec7e08ff4ab6db4df4d420116
+  - enabled: 1
+    path: Assets/Wada/GameClear.unity
+    guid: e96a71381081e914d84405df1b894161
   m_configObjects: {}

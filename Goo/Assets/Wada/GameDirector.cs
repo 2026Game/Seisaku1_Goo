@@ -89,11 +89,6 @@ public class GameDirector : MonoBehaviour
     {
         this.TimerUI.GetComponent<TextMeshProUGUI>().text = this.Timer.ToString("F1");
         this.OniUI.GetComponent<TextMeshProUGUI>().text = this.OniCount.ToString("F0");
-        if (Timer <= 0)
-        {
-            Over = true;
-            GameOver = 1;
-        }
 
         if (Damage >= 1)
         {
@@ -111,16 +106,16 @@ public class GameDirector : MonoBehaviour
 
         if (Over == true)
         {
-            
             OverUI.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
-                SceneManager.LoadScene("TitleScene");
-            }
         }
         if (Over == false)
         {
             this.Timer -= Time.deltaTime;
+        }
+
+        if(Timer <= 0)
+        {
+            SceneManager.LoadScene("GameClear");
         }
     }
 }
