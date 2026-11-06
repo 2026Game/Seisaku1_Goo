@@ -455,7 +455,7 @@ MonoBehaviour:
   checkDistance: 0.6
   wallLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   RightwalkSprites:
   - {fileID: -2948383634211847389, guid: 3bb84ab42ecef3e44959b227b8a5ad0e, type: 3}
   - {fileID: 3860312767374668384, guid: 80593802152d01a4ebdeb06ccfcddda3, type: 3}
