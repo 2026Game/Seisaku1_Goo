@@ -205,6 +205,7 @@ public class OniController : MonoBehaviour
             speed = 4;
             Pause = 3;
 
+
             enemyCollider.enabled = true;
 
             if (Mathf.Abs(difference.x) > Mathf.Abs(difference.y))
