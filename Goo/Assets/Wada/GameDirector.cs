@@ -3,9 +3,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
 
 public class GameDirector : MonoBehaviour
 {
+    public AudioClip SELECT;
+    public AudioClip DAMAGE;
+    AudioSource aud;
+
     public static int GameOver = 0;
     public GameObject OverUI;
     public GameObject HPUI1;
@@ -17,7 +22,7 @@ public class GameDirector : MonoBehaviour
     public Button ReStart;
     public Button Title;
 
-    float Timer = 99.9f;
+    float Timer = 50.0f;
     int OniCount = 1;
     int Damage = 0;
     bool Over;
@@ -51,6 +56,7 @@ public class GameDirector : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        this.aud = GetComponent<AudioSource>();
         this.onistop = GameObject.Find("Oni");
         OverUI.SetActive(false);
         HPUI1.SetActive(true);
@@ -66,24 +72,46 @@ public class GameDirector : MonoBehaviour
 
     void ReStartGame()
     {
+        StartCoroutine(StartGameCoroutine());
+    }
+    IEnumerator StartGameCoroutine()
+    {
+        aud.PlayOneShot(SELECT);
+
+        yield return new WaitForSeconds(SELECT.length);
+
         SceneManager.LoadScene("GameScene1");
     }
+
     void TitleBack()
     {
+        StartCoroutine(TitleGameCoroutine());
+    }
+    IEnumerator TitleGameCoroutine()
+    {
+        aud.PlayOneShot(SELECT);
+
+        yield return new WaitForSeconds(SELECT.length);
+
         SceneManager.LoadScene("Title");
     }
 
+
     public void CatchPlayer()
     {
+        if (Damage <= 2)
+        {
+            aud.PlayOneShot(DAMAGE);
+        }
         this.onistop.GetComponent<OniController>().OniStop();
         Damage++;
         Debug.Log(Damage + "ディレクタ");
         if (Damage >= 3)
         {
             Over = true;
+
         }
     }
-
     // Update is called once per frame
     void Update()
     {
