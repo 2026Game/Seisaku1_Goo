@@ -197,12 +197,12 @@ public class OniController : MonoBehaviour
             else if (Pause <= 0)
             {
                 enemyCollider.enabled = true;
-                speed = 4;
+                speed = 4.9f;
             }
         }
         else
         {
-            speed = 4;
+            speed = 4.9f;
             Pause = 3;
 
 
