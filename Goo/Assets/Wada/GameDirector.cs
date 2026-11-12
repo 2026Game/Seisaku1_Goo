@@ -22,7 +22,7 @@ public class GameDirector : MonoBehaviour
     public Button ReStart;
     public Button Title;
 
-    float Timer = 50.0f;
+    float Timer = 60.0f;
     int OniCount = 1;
     int Damage = 0;
     bool Over;
