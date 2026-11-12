@@ -202,7 +202,7 @@ public class OniController : MonoBehaviour
         }
         else
         {
-            speed = 4.9f;
+            speed = 5.1f;
             Pause = 3;
 
 
