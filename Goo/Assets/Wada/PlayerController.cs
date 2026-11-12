@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     float animationInterval = 0.2f;
     private float animationTimer = 0f;
     int Damage = 0;
+    float SpeedTime = 5.0f;
+    float speedNumber = 5.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,6 +32,11 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         this.spriteRenderer = GetComponent<SpriteRenderer>();
         Stop = false;
+    }
+
+    public void PlayerSpeed()
+    {
+        speedNumber = 7.0f;
     }
 
     // Update is called once per frame
@@ -42,7 +49,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
-                speed = 5.0f;
+                speed = speedNumber;
                 move.y = 1;
                 this.spriteRenderer.sprite = this.UpwalkSprites[this.idx];
                 State = 1;
@@ -51,7 +58,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
             {
-                speed = 5.0f;
+                speed = speedNumber;
                 move.y = -1;
                 this.spriteRenderer.sprite = this.DownwalkSprites[this.idx];
                 State = 0;
@@ -60,7 +67,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
             {
-                speed = 5.0f;
+                speed = speedNumber;
                 move.x = -1;
                 this.spriteRenderer.sprite = this.LeftwalkSprites[this.idx];
                 State = 2;
@@ -76,7 +83,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
             {
-                speed = 5.0f;
+                speed = speedNumber;
                 move.x = 1;
                 this.spriteRenderer.sprite = this.RightwalkSprites[this.idx];
                 State = 3;
@@ -94,6 +101,16 @@ public class PlayerController : MonoBehaviour
         else
         {
             speed = 0;
+        }
+
+        if(speed==7.0f)
+        {
+            this.SpeedTime -= Time.deltaTime;
+            if(SpeedTime<0)
+            {
+                speedNumber = 5.0f;
+                SpeedTime = 5.0f;
+            }
         }
 
         if (move.x != 0 || move.y != 0)
