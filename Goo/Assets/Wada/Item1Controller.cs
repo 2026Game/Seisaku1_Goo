@@ -7,11 +7,16 @@ public class Item1Controller : MonoBehaviour
     float Item1Time = 10.0f;
     GameObject TimeMinus;
     GameObject playerSpeed;
+
+    public AudioClip TimeDown;
+    public AudioClip SpeedUP;
+    AudioSource aud;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         this.TimeMinus = GameObject.Find("GameDirector");
         this.playerSpeed = GameObject.Find("PF Player");
+        this.aud = GetComponent<AudioSource>();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -21,6 +26,7 @@ public class Item1Controller : MonoBehaviour
             randomNumber = Random.Range(1, 3);
             if (randomNumber == 1)
             {
+                aud.PlayOneShot(TimeDown);
                 this.TimeMinus.GetComponent<GameDirector>().TimerMinus();
                 GetComponent<SpriteRenderer>().enabled = false;
                 GetComponent<Collider2D>().enabled = false;
@@ -28,6 +34,7 @@ public class Item1Controller : MonoBehaviour
             }
             if(randomNumber==2)
             {
+                aud.PlayOneShot(SpeedUP);
                 this.playerSpeed.GetComponent<PlayerController>().PlayerSpeed();
                 GetComponent<SpriteRenderer>().enabled = false;
                 GetComponent<Collider2D>().enabled = false;
@@ -41,7 +48,7 @@ public class Item1Controller : MonoBehaviour
     {
         if(GetComponent<SpriteRenderer>().enabled == false)
         {
-            randomPosition = Random.Range(1, 3);
+            randomPosition = Random.Range(1, 4);
         }
 
         this.Item1Time -= Time.deltaTime;
@@ -58,6 +65,10 @@ public class Item1Controller : MonoBehaviour
         else if(randomPosition==2)
         {
             transform.position = new Vector3(27.5f, 3.0f, 0.0f);
+        }
+        else if(randomPosition==3)
+        {
+            transform.position = new Vector3(-19.87f, 8.84f, 0.0f);
         }
     }
 }
