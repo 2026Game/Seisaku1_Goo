@@ -47,6 +47,7 @@ public class Item1Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(GetComponent<SpriteRenderer>().enabled == false)
         {
             randomPosition = Random.Range(1, 5);
