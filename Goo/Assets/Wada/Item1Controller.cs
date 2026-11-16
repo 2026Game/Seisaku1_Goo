@@ -49,7 +49,7 @@ public class Item1Controller : MonoBehaviour
     {
         if(GetComponent<SpriteRenderer>().enabled == false)
         {
-            randomPosition = Random.Range(1, 4);
+            randomPosition = Random.Range(1, 5);
         }
 
         this.Item1Time -= Time.deltaTime;
@@ -70,6 +70,10 @@ public class Item1Controller : MonoBehaviour
         else if(randomPosition==3)
         {
             transform.position = new Vector3(-19.87f, 8.84f, 0.0f);
+        }
+        else if(randomPosition==4)
+        {
+            transform.position = new Vector3(-1.56f, -1.91f, 0.0f);
         }
     }
 }

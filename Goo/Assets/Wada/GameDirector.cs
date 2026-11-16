@@ -80,6 +80,8 @@ public class GameDirector : MonoBehaviour
 
         yield return new WaitForSeconds(SELECT.length);
 
+        OniController.PlayerDamage = 0;
+
         SceneManager.LoadScene("GameScene1");
     }
 

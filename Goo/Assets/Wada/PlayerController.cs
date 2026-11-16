@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     float speed = 0.0f;
     private Rigidbody2D rb;
     private Vector2 move;
+    SpriteRenderer sr;
+
 
     public Sprite[] RightwalkSprites;
     public Sprite[] LeftwalkSprites;
@@ -24,6 +26,7 @@ public class PlayerController : MonoBehaviour
     int Damage = 0;
     float SpeedTime = 5.0f;
     float speedNumber = 5.0f;
+    float MutekiTime;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,6 +35,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         this.spriteRenderer = GetComponent<SpriteRenderer>();
         Stop = false;
+        MutekiTime = 0.0f;
     }
 
     public void PlayerSpeed()
@@ -157,6 +161,21 @@ public class PlayerController : MonoBehaviour
         {
             Stop = true;
         }
+
+        if(MutekiTime>0.0f)
+        {
+            this.MutekiTime -= Time.deltaTime;
+            // ”¼“§–¾‚É‚·‚é
+            Color color = this.spriteRenderer.color;
+            color.a = 0.5f;
+            this.spriteRenderer.color = color;
+        }
+        else
+        {
+            Color color = this.spriteRenderer.color;
+            color.a = 1.0f;
+            this.spriteRenderer.color = color;
+        }
     }
 
     void FixedUpdate()
@@ -171,6 +190,10 @@ public class PlayerController : MonoBehaviour
         if (Damage >= 3)
         {
             Stop = true;
+        }
+        else
+        {
+            MutekiTime = 3.0f;
         }
     }
 }

@@ -37,6 +37,8 @@ public class TitleController : MonoBehaviour
 
         yield return new WaitForSeconds(SELECT.length);
 
+        OniController.PlayerDamage = 0;
+
         SceneManager.LoadScene("GameScene1");
     }
 

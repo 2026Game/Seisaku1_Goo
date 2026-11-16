@@ -8,7 +8,7 @@ public class OniController : MonoBehaviour
     public Transform player;
     static float speed = 0.0f;
     float Pause = 3.0f;
-    static int PlayerDamage = 0;
+    public static int PlayerDamage = 0;
 
     public float checkDistance = 0.6f;
     public LayerMask wallLayer;
