@@ -9,7 +9,6 @@ public class OniController : MonoBehaviour
     static float speed = 0.0f;
     float Pause = 3.0f;
     static int PlayerDamage = 0;
-    float SpeedUpTime = 30.0f;
 
     public float checkDistance = 0.6f;
     public LayerMask wallLayer;
@@ -101,7 +100,6 @@ public class OniController : MonoBehaviour
 
     void FixedUpdate()
     {
-        this.SpeedUpTime -= Time.deltaTime;
 
         if (player == null || rb == null)
             return;

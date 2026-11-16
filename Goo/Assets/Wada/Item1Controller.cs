@@ -17,6 +17,7 @@ public class Item1Controller : MonoBehaviour
         this.TimeMinus = GameObject.Find("GameDirector");
         this.playerSpeed = GameObject.Find("PF Player");
         this.aud = GetComponent<AudioSource>();
+        randomPosition = Random.Range(1, 4);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
