@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 move;
     SpriteRenderer sr;
-
+    public GameObject SpeedUP;
 
     public Sprite[] RightwalkSprites;
     public Sprite[] LeftwalkSprites;
@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
         this.spriteRenderer = GetComponent<SpriteRenderer>();
         Stop = false;
         MutekiTime = 0.0f;
+        SpeedUP.SetActive(false);
     }
 
     public void PlayerSpeed()
@@ -109,11 +110,13 @@ public class PlayerController : MonoBehaviour
 
         if(speed==7.0f)
         {
+            SpeedUP.SetActive(true);
             this.SpeedTime -= Time.deltaTime;
             if(SpeedTime<0)
             {
                 speedNumber = 5.0f;
                 SpeedTime = 5.0f;
+                SpeedUP.SetActive(false);
             }
         }
 
