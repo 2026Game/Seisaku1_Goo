@@ -7,6 +7,7 @@ public class Item1Controller : MonoBehaviour
     float Item1Time = 10.0f;
     GameObject TimeMinus;
     GameObject playerSpeed;
+    GameObject playerTime;
 
     public AudioClip TimeDown;
     public AudioClip SpeedUP;
@@ -16,6 +17,7 @@ public class Item1Controller : MonoBehaviour
     {
         this.TimeMinus = GameObject.Find("GameDirector");
         this.playerSpeed = GameObject.Find("PF Player");
+        this.playerTime = GameObject.Find("PF Player");
         this.aud = GetComponent<AudioSource>();
         randomPosition = Random.Range(1, 4);
     }
@@ -29,6 +31,7 @@ public class Item1Controller : MonoBehaviour
             {
                 aud.PlayOneShot(TimeDown);
                 this.TimeMinus.GetComponent<GameDirector>().TimerMinus();
+                this.playerTime.GetComponent<PlayerController>().TimerItem();
                 GetComponent<SpriteRenderer>().enabled = false;
                 GetComponent<Collider2D>().enabled = false;
                 Item1Time = 10.0f;

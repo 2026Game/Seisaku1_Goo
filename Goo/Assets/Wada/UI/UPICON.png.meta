@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: a91e79f2bcd261140b63253a527f93f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6908536961972728445
+    second: UPICON_0
+  - first:
+      213: -4293118850610434758
+    second: UPICON_1
+  - first:
+      213: -4928704255991211267
+    second: UPICON_2
+  - first:
+      213: 1930214071678600036
+    second: UPICON_3
+  - first:
+      213: 2800116047479958893
+    second: UPICON_4
+  - first:
+      213: 4391184329743946863
+    second: UPICON_5
+  - first:
+      213: 3668986486053372086
+    second: UPICON_6
+  - first:
+      213: -2025804098981757190
+    second: UPICON_7
+  - first:
+      213: -4416732772105265517
+    second: UPICON_8
+  - first:
+      213: -468541247941760047
+    second: UPICON_9
+  - first:
+      213: 1434223334886281663
+    second: UPICON_10
+  - first:
+      213: 9084276877858733600
+    second: UPICON_11
+  - first:
+      213: 6700494486766358171
+    second: UPICON_12
+  - first:
+      213: 3203592029929053541
+    second: UPICON_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UPICON_0
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1419
+        width: 170
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d727a0093cd00ef50800000000000000
+      internalID: 6908536961972728445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1421
+        width: 321
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3de4dab627cb64c0800000000000000
+      internalID: -4293118850610434758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1421
+        width: 161
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa10b2b799b99bb0800000000000000
+      internalID: -4928704255991211267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_3
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1421
+        width: 175
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4630dd2b87f79ca10800000000000000
+      internalID: 1930214071678600036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_4
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1419
+        width: 168
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6de9e3a5b20cd620800000000000000
+      internalID: 2800116047479958893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_5
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1421
+        width: 163
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6456a5e1ee90fc30800000000000000
+      internalID: 4391184329743946863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_6
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1421
+        width: 57
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b08bea15cbdae230800000000000000
+      internalID: 3668986486053372086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 502
+        width: 902
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe79a7b7e5e2e3e0800000000000000
+      internalID: -2025804098981757190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_8
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1199
+        width: 323
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ed6d2d1fc94b2c0800000000000000
+      internalID: -4416732772105265517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1109
+        width: 461
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db20d9a7386f79f0800000000000000
+      internalID: -468541247941760047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_10
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 975
+        width: 475
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb11974368267e310800000000000000
+      internalID: 1434223334886281663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_11
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 860
+        width: 476
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e701a90b5d11e70800000000000000
+      internalID: 9084276877858733600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_12
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 729
+        width: 475
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e0c272c30fcfc50800000000000000
+      internalID: 6700494486766358171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPICON_13
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 608
+        width: 355
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d91355af1757c20800000000000000
+      internalID: 3203592029929053541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UPICON_0: 6908536961972728445
+      UPICON_1: -4293118850610434758
+      UPICON_10: 1434223334886281663
+      UPICON_11: 9084276877858733600
+      UPICON_12: 6700494486766358171
+      UPICON_13: 3203592029929053541
+      UPICON_2: -4928704255991211267
+      UPICON_3: 1930214071678600036
+      UPICON_4: 2800116047479958893
+      UPICON_5: 4391184329743946863
+      UPICON_6: 3668986486053372086
+      UPICON_7: -2025804098981757190
+      UPICON_8: -4416732772105265517
+      UPICON_9: -468541247941760047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

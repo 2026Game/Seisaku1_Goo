@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 move;
     SpriteRenderer sr;
     public GameObject SpeedUP;
+    public GameObject TimeMinus;
 
     public Sprite[] RightwalkSprites;
     public Sprite[] LeftwalkSprites;
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
     float SpeedTime = 5.0f;
     float speedNumber = 5.0f;
     float MutekiTime;
+    float TimerMinus=0.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,11 +39,17 @@ public class PlayerController : MonoBehaviour
         Stop = false;
         MutekiTime = 0.0f;
         SpeedUP.SetActive(false);
+        TimeMinus.SetActive(false);
     }
 
     public void PlayerSpeed()
     {
         speedNumber = 7.0f;
+    }
+
+    public void TimerItem()
+    {
+        TimerMinus = 3.0f;
     }
 
     // Update is called once per frame
@@ -178,6 +186,16 @@ public class PlayerController : MonoBehaviour
             Color color = this.spriteRenderer.color;
             color.a = 1.0f;
             this.spriteRenderer.color = color;
+        }
+
+        if(TimerMinus>0.0f)
+        {
+            TimerMinus -= Time.deltaTime;
+            TimeMinus.SetActive(true);
+        }
+        else
+        {
+            TimeMinus.SetActive(false);
         }
     }
 
