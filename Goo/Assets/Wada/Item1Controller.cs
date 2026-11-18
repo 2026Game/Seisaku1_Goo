@@ -19,7 +19,7 @@ public class Item1Controller : MonoBehaviour
         this.playerSpeed = GameObject.Find("PF Player");
         this.playerTime = GameObject.Find("PF Player");
         this.aud = GetComponent<AudioSource>();
-        randomPosition = Random.Range(1, 4);
+        randomPosition = Random.Range(1, 5);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -53,7 +53,7 @@ public class Item1Controller : MonoBehaviour
 
         if(GetComponent<SpriteRenderer>().enabled == false)
         {
-            randomPosition = Random.Range(1, 5);
+            randomPosition = Random.Range(1, 6);
         }
 
         this.Item1Time -= Time.deltaTime;
@@ -76,6 +76,10 @@ public class Item1Controller : MonoBehaviour
             transform.position = new Vector3(-19.87f, 8.84f, 0.0f);
         }
         else if(randomPosition==4)
+        {
+            transform.position = new Vector3(7.72f, 3.58f, 0.0f);
+        }
+        else if(randomPosition==5)
         {
             transform.position = new Vector3(-1.56f, -1.91f, 0.0f);
         }
