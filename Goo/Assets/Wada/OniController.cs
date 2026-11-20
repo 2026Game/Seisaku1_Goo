@@ -6,7 +6,7 @@ public class OniController : MonoBehaviour
     GameObject director;
 
     public Transform player;
-    static float speed = 0.0f;
+    public static float speed = 0.0f;
     float Pause = 3.0f;
     public static int PlayerDamage = 0;
 

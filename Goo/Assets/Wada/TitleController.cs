@@ -38,6 +38,7 @@ public class TitleController : MonoBehaviour
         yield return new WaitForSeconds(SELECT.length);
 
         OniController.PlayerDamage = 0;
+        OniController.speed = 0.0f;
 
         SceneManager.LoadScene("GameScene1");
     }
@@ -47,6 +48,9 @@ public class TitleController : MonoBehaviour
         aud.PlayOneShot(SELECT);
 
         yield return new WaitForSeconds(SELECT.length);
+
+        OniController.PlayerDamage = 0;
+        OniController.speed = 0.0f;
 
         SceneManager.LoadScene("Title");
     }
